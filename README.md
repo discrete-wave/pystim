@@ -23,7 +23,7 @@ This integration enhances productivity and efficiency, especially in high-perfor
 ## Useful Links
 - **Home Page**: [pystim.dev](https://pystim.dev)
 - **Installation Guide**: [docs.pystim.dev/installing.html](https://docs.pystim.dev/installing.html)
-- **API Reference**: [api.pystim.com](https://api.pystim.com)
+- **API Reference**: [api.pystim.dev](https://api.pystim.dev)
 - **Documentation**: [docs.pystim.dev](https://docs.pystim.dev)
 
 ## Feedback
