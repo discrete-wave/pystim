@@ -20,6 +20,9 @@ This integration enhances productivity and efficiency, especially in high-perfor
 - Type-safe interactions between Python and SystemVerilog
 - Ideal for simulation, testing, and hardware-software co-design workflows
 
+## Download 
+- **Download**: [pystim.dev](https://pystim.dev)
+
 ## Useful Links
 - **Home Page**: [pystim.dev](https://pystim.dev)
 - **Installation Guide**: [docs.pystim.dev/installing.html](https://docs.pystim.dev/installing.html)
