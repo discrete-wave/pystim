@@ -15,10 +15,10 @@ module simple_calc();
             automatic py_object calc_1 = py_module::import_("calc").attr("Calculator").call();
             automatic py_object res_0 = calc_0.attr("add").call(py::int_(1), py::float_(2.2));
             automatic py_object res_1 = calc_1.attr("subtract").call(py::int_(5), py::int_(1));
-            automatic py_object latest_res = calc_0.attr("get_last_result2").call();
-      
-            assert (res_0.cast_float().get_value() == 3.2) ;
-            assert (latest_res.cast_float().get_value() == 3.2)
+            automatic py_object latest_res = calc_0.attr("get_last_result").call();
+
+            assert (res_0.cast_float().get_value() == 3.2);
+            assert (latest_res.cast_float().get_value() == 3.2);
 
             latest_res = calc_1.attr("get_last_result").call();
             assert (res_1.cast_int().get_value() == 4);

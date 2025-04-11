@@ -1,3 +1,5 @@
 *transcript
 *.swp
 *.pyc
+*run.log
+examples/*/work
